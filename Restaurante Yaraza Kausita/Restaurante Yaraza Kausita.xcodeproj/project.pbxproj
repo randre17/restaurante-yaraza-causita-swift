@@ -15,6 +15,10 @@
 		535B8A2125399D0D006F556E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535B8A1F25399D0D006F556E /* LaunchScreen.storyboard */; };
 		535B8A2A2539A25D006F556E /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 535B8A292539A25D006F556E /* logo.jpg */; };
 		535B8A2C2539AB6B006F556E /* RestaurantesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B8A2B2539AB6B006F556E /* RestaurantesViewController.swift */; };
+		535B8A2E2539B068006F556E /* pardos-chicken-logo_fb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 535B8A2D2539B068006F556E /* pardos-chicken-logo_fb.jpg */; };
+		535B8A302539B675006F556E /* b40011ac14cc63496fdebbd289a04dce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 535B8A2F2539B674006F556E /* b40011ac14cc63496fdebbd289a04dce.jpg */; };
+		535B8A322539B9AB006F556E /* PlatillosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B8A312539B9AB006F556E /* PlatillosViewController.swift */; };
+		535B8A342539BBAF006F556E /* PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B8A332539BBAF006F556E /* PedidosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		535B8A2225399D0D006F556E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535B8A292539A25D006F556E /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		535B8A2B2539AB6B006F556E /* RestaurantesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantesViewController.swift; sourceTree = "<group>"; };
+		535B8A2D2539B068006F556E /* pardos-chicken-logo_fb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pardos-chicken-logo_fb.jpg"; path = "../../../../../Downloads/pardos-chicken-logo_fb.jpg"; sourceTree = "<group>"; };
+		535B8A2F2539B674006F556E /* b40011ac14cc63496fdebbd289a04dce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = b40011ac14cc63496fdebbd289a04dce.jpg; path = ../../../../../Downloads/b40011ac14cc63496fdebbd289a04dce.jpg; sourceTree = "<group>"; };
+		535B8A312539B9AB006F556E /* PlatillosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatillosViewController.swift; sourceTree = "<group>"; };
+		535B8A332539BBAF006F556E /* PedidosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,8 @@
 				535B8A1F25399D0D006F556E /* LaunchScreen.storyboard */,
 				535B8A2225399D0D006F556E /* Info.plist */,
 				535B8A2B2539AB6B006F556E /* RestaurantesViewController.swift */,
+				535B8A312539B9AB006F556E /* PlatillosViewController.swift */,
+				535B8A332539BBAF006F556E /* PedidosViewController.swift */,
 			);
 			path = "Restaurante Yaraza Kausita";
 			sourceTree = "<group>";
@@ -76,6 +86,8 @@
 		535B8A282539A12A006F556E /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				535B8A2F2539B674006F556E /* b40011ac14cc63496fdebbd289a04dce.jpg */,
+				535B8A2D2539B068006F556E /* pardos-chicken-logo_fb.jpg */,
 				535B8A292539A25D006F556E /* logo.jpg */,
 			);
 			path = Pictures;
@@ -139,10 +151,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535B8A2E2539B068006F556E /* pardos-chicken-logo_fb.jpg in Resources */,
 				535B8A2A2539A25D006F556E /* logo.jpg in Resources */,
 				535B8A2125399D0D006F556E /* LaunchScreen.storyboard in Resources */,
 				535B8A1E25399D0D006F556E /* Assets.xcassets in Resources */,
 				535B8A1C25399D0A006F556E /* Main.storyboard in Resources */,
+				535B8A302539B675006F556E /* b40011ac14cc63496fdebbd289a04dce.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +170,9 @@
 				535B8A1925399D0A006F556E /* ViewController.swift in Sources */,
 				535B8A1525399D0A006F556E /* AppDelegate.swift in Sources */,
 				535B8A2C2539AB6B006F556E /* RestaurantesViewController.swift in Sources */,
+				535B8A322539B9AB006F556E /* PlatillosViewController.swift in Sources */,
 				535B8A1725399D0A006F556E /* SceneDelegate.swift in Sources */,
+				535B8A342539BBAF006F556E /* PedidosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

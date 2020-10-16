@@ -1,5 +1,5 @@
 //
-//  RestaurantesViewController.swift
+//  PlatillosViewController.swift
 //  Restaurante Yaraza Kausita
 //
 //  Created by Rafael on 10/16/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RestaurantesViewController: UIViewController {
+class PlatillosViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,10 +16,7 @@ class RestaurantesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func ver(_ sender: Any) {
-        performSegue(withIdentifier: "goPlatillos", sender: nil)
-    }
-    
+
     /*
     // MARK: - Navigation
 
